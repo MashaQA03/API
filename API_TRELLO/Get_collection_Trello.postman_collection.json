@@ -1,0 +1,347 @@
+{
+	"info": {
+		"_postman_id": "432a7cc4-8af9-489c-b62d-afa819a0907e",
+		"name": "Get _Collection_Trello",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "21532859"
+	},
+	"item": [
+		{
+			"name": "Get_board_ request_Trello",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.trello.com/1/boards/nYUeolUR?key=6cb6394a4ff5cfd41127b06889477cd&token=80608570f4aa2dfdf192fcde293fc0ad782374e311d5b2eac758017f5322bca2",
+					"protocol": "https",
+					"host": [
+						"api",
+						"trello",
+						"com"
+					],
+					"path": [
+						"1",
+						"boards",
+						"nYUeolUR"
+					],
+					"query": [
+						{
+							"key": "key",
+							"value": "6cb6394a4ff5cfd41127b06889477cd"
+						},
+						{
+							"key": "token",
+							"value": "80608570f4aa2dfdf192fcde293fc0ad782374e766d5b2eac758017f5322bca2"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Get_board_ request_Trello",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://api.trello.com/1/boards/nYUeolUR?key=6cb6394a4ff5cfd41127b068894717cd&token=80608570f4aa2dfdf192fcde293fc0ad782374e311d5b2eac758017f5322bca2",
+							"protocol": "https",
+							"host": [
+								"api",
+								"trello",
+								"com"
+							],
+							"path": [
+								"1",
+								"boards",
+								"nYUeolUR"
+							],
+							"query": [
+								{
+									"key": "key",
+									"value": "6cb6394a4ff5cfd41127b068894777cd"
+								},
+								{
+									"key": "token",
+									"value": "80608570f4aa2dfdf782fcde293fc0ad782374e311d5b2eac758017f5322bca2"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Dns-Prefetch-Control",
+							"value": "off"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "DENY"
+						},
+						{
+							"key": "X-Download-Options",
+							"value": "noopen"
+						},
+						{
+							"key": "X-Permitted-Cross-Domain-Policies",
+							"value": "none"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "strict-origin-when-cross-origin"
+						},
+						{
+							"key": "Surrogate-Control",
+							"value": "no-store"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "max-age=0, must-revalidate, no-cache, no-store"
+						},
+						{
+							"key": "Pragma",
+							"value": "no-cache"
+						},
+						{
+							"key": "Expires",
+							"value": "Thu, 01 Jan 1970 00:00:00"
+						},
+						{
+							"key": "X-Trello-Version",
+							"value": "1.142239.0"
+						},
+						{
+							"key": "X-Trello-Environment",
+							"value": "Production"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET, PUT, POST, DELETE"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Authorization, Accept, Content-Type"
+						},
+						{
+							"key": "Access-Control-Expose-Headers",
+							"value": "x-rate-limit-api-key-interval-ms, x-rate-limit-api-key-max, x-rate-limit-api-key-remaining, x-rate-limit-api-token-interval-ms, x-rate-limit-api-token-max, x-rate-limit-api-token-remaining"
+						},
+						{
+							"key": "X-Rate-Limit-Api-Token-Interval-Ms",
+							"value": "10000"
+						},
+						{
+							"key": "X-Rate-Limit-Api-Token-Max",
+							"value": "100"
+						},
+						{
+							"key": "X-Rate-Limit-Api-Token-Remaining",
+							"value": "99"
+						},
+						{
+							"key": "X-Rate-Limit-Db-Query-Time-Interval-Ms",
+							"value": "600000"
+						},
+						{
+							"key": "X-Rate-Limit-Db-Query-Time-Max",
+							"value": "7200000"
+						},
+						{
+							"key": "X-Rate-Limit-Db-Query-Time-Remaining",
+							"value": "7199990"
+						},
+						{
+							"key": "X-Rate-Limit-Api-Key-Interval-Ms",
+							"value": "10000"
+						},
+						{
+							"key": "X-Rate-Limit-Api-Key-Max",
+							"value": "300"
+						},
+						{
+							"key": "X-Rate-Limit-Api-Key-Remaining",
+							"value": "299"
+						},
+						{
+							"key": "X-Rate-Limit-Member-Interval-Ms",
+							"value": "10000"
+						},
+						{
+							"key": "X-Rate-Limit-Member-Max",
+							"value": "375"
+						},
+						{
+							"key": "X-Rate-Limit-Member-Remaining",
+							"value": "374"
+						},
+						{
+							"key": "Set-Cookie",
+							"value": "preAuthProps=s%3A5d0ca57ec3e5f65158cea8b3%3AisEnterpriseAdmin%3Dfalse.ff7XfdGqlzBw2KoZ8QXmv0P%2FKDTKNNnsharlqQrBCQ0; Path=/; HttpOnly"
+						},
+						{
+							"key": "X-Server-Time",
+							"value": "1657626848915"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 12 Jul 2022 11:54:08 GMT"
+						},
+						{
+							"key": "Content-Encoding",
+							"value": "gzip"
+						},
+						{
+							"key": "X-Envoy-Upstream-Service-Time",
+							"value": "47"
+						},
+						{
+							"key": "Expect-Ct",
+							"value": "report-uri=\"https://web-security-reports.services.atlassian.com/expect-ct-report/trello-edge\", max-age=86400"
+						},
+						{
+							"key": "Strict-Transport-Security",
+							"value": "max-age=63072000; preload"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "X-Xss-Protection",
+							"value": "1; mode=block"
+						},
+						{
+							"key": "Atl-Traceid",
+							"value": "2b30fac6e24bee16"
+						},
+						{
+							"key": "Report-To",
+							"value": "{\"group\": \"endpoint-1\", \"max_age\": 600, \"endpoints\": [{\"url\": \"https://dj9s4kmieytgz.cloudfront.net\"}], \"include_subdomains\": true}"
+						},
+						{
+							"key": "Nel",
+							"value": "{\"report_to\": \"endpoint-1\", \"max_age\": 600, \"include_subdomains\": true, \"failure_fraction\": 0.001}"
+						},
+						{
+							"key": "Server",
+							"value": "globaledge-envoy"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"id\": \"62c82c5559d3e83002e04b99\",\n    \"name\": \"API_TEST\",\n    \"desc\": \"\",\n    \"descData\": null,\n    \"closed\": false,\n    \"idOrganization\": \"62c82c37b781c00a08b53826\",\n    \"idEnterprise\": null,\n    \"pinned\": false,\n    \"url\": \"https://trello.com/b/nYUeolUR/apitest\",\n    \"shortUrl\": \"https://trello.com/b/nYUeolUR\",\n    \"prefs\": {\n        \"permissionLevel\": \"private\",\n        \"hideVotes\": false,\n        \"voting\": \"disabled\",\n        \"comments\": \"members\",\n        \"invitations\": \"members\",\n        \"selfJoin\": false,\n        \"cardCovers\": true,\n        \"isTemplate\": false,\n        \"cardAging\": \"regular\",\n        \"calendarFeedEnabled\": false,\n        \"hiddenPluginBoardButtons\": [],\n        \"switcherViews\": [\n            {\n                \"_id\": \"62c82c5559d3e83002e04b9a\",\n                \"viewType\": \"Board\",\n                \"enabled\": true\n            },\n            {\n                \"_id\": \"62c82c5559d3e83002e04b9b\",\n                \"viewType\": \"Table\",\n                \"enabled\": true\n            },\n            {\n                \"_id\": \"62c82c5559d3e83002e04b9c\",\n                \"viewType\": \"Calendar\",\n                \"enabled\": false\n            },\n            {\n                \"_id\": \"62c82c5559d3e83002e04b9d\",\n                \"viewType\": \"Dashboard\",\n                \"enabled\": false\n            },\n            {\n                \"_id\": \"62c82c5559d3e83002e04b9e\",\n                \"viewType\": \"Timeline\",\n                \"enabled\": false\n            },\n            {\n                \"_id\": \"62c82c5559d3e83002e04b9f\",\n                \"viewType\": \"Map\",\n                \"enabled\": false\n            }\n        ],\n        \"background\": \"62c822ad2bc45f6088995117\",\n        \"backgroundColor\": null,\n        \"backgroundImage\": \"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/original/9bfa1c390a3dc7959054d338745efd1f/photo-1657089342845-c73adbddc99a\",\n        \"backgroundImageScaled\": [\n            {\n                \"width\": 67,\n                \"height\": 100,\n                \"url\": \"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/67x100/dd9bcc587056a6d3bbd31f1c0a8930c2/photo-1657089342845-c73adbddc99a.jpg\"\n            },\n            {\n                \"width\": 128,\n                \"height\": 192,\n                \"url\": \"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/128x192/dd9bcc587056a6d3bbd31f1c0a8930c2/photo-1657089342845-c73adbddc99a.jpg\"\n            },\n            {\n                \"width\": 320,\n                \"height\": 480,\n                \"url\": \"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/320x480/dd9bcc587056a6d3bbd31f1c0a8930c2/photo-1657089342845-c73adbddc99a.jpg\"\n            },\n            {\n                \"width\": 640,\n                \"height\": 960,\n                \"url\": \"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/640x960/dd9bcc587056a6d3bbd31f1c0a8930c2/photo-1657089342845-c73adbddc99a.jpg\"\n            },\n            {\n                \"width\": 683,\n                \"height\": 1024,\n                \"url\": \"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/683x1024/dd9bcc587056a6d3bbd31f1c0a8930c2/photo-1657089342845-c73adbddc99a.jpg\"\n            },\n            {\n                \"width\": 853,\n                \"height\": 1280,\n                \"url\": \"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/853x1280/dd9bcc587056a6d3bbd31f1c0a8930c2/photo-1657089342845-c73adbddc99a.jpg\"\n            },\n            {\n                \"width\": 1066,\n                \"height\": 1600,\n                \"url\": \"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/1066x1600/dd9bcc587056a6d3bbd31f1c0a8930c2/photo-1657089342845-c73adbddc99a.jpg\"\n            },\n            {\n                \"width\": 1280,\n                \"height\": 1920,\n                \"url\": \"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/1280x1920/dd9bcc587056a6d3bbd31f1c0a8930c2/photo-1657089342845-c73adbddc99a.jpg\"\n            },\n            {\n                \"width\": 1365,\n                \"height\": 2048,\n                \"url\": \"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/original/9bfa1c390a3dc7959054d338745efd1f/photo-1657089342845-c73adbddc99a\"\n            }\n        ],\n        \"backgroundTile\": false,\n        \"backgroundBrightness\": \"dark\",\n        \"backgroundBottomColor\": \"#0b0707\",\n        \"backgroundTopColor\": \"#4b3d40\",\n        \"canBePublic\": true,\n        \"canBeEnterprise\": true,\n        \"canBeOrg\": true,\n        \"canBePrivate\": true,\n        \"canInvite\": true\n    },\n    \"labelNames\": {\n        \"green\": \"\",\n        \"yellow\": \"\",\n        \"orange\": \"\",\n        \"red\": \"\",\n        \"purple\": \"\",\n        \"blue\": \"\",\n        \"sky\": \"\",\n        \"lime\": \"\",\n        \"pink\": \"\",\n        \"black\": \"\",\n        \"green_dark\": \"\",\n        \"yellow_dark\": \"\",\n        \"orange_dark\": \"\",\n        \"red_dark\": \"\",\n        \"purple_dark\": \"\",\n        \"blue_dark\": \"\",\n        \"sky_dark\": \"\",\n        \"lime_dark\": \"\",\n        \"pink_dark\": \"\",\n        \"black_dark\": \"\",\n        \"green_light\": \"\",\n        \"yellow_light\": \"\",\n        \"orange_light\": \"\",\n        \"red_light\": \"\",\n        \"purple_light\": \"\",\n        \"blue_light\": \"\",\n        \"sky_light\": \"\",\n        \"lime_light\": \"\",\n        \"pink_light\": \"\",\n        \"black_light\": \"\"\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Get_cards_on_board_request_Trello",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.trello.com/1/boards/62c82c5559d3e83002e04b99/cards?key=6cb6394a4ff5cfd41127b068894717cd&token=80608570f4aa2dfdf192fcde293fc0ad782374e311d5b2eac758017f5322bca2",
+					"protocol": "https",
+					"host": [
+						"api",
+						"trello",
+						"com"
+					],
+					"path": [
+						"1",
+						"boards",
+						"62c82c5559d3e83002e04b99",
+						"cards"
+					],
+					"query": [
+						{
+							"key": "key",
+							"value": "6cb6394a4ff5cfd41127b068894777cd"
+						},
+						{
+							"key": "token",
+							"value": "80608570f4aa2dfdf192fcde293fc0ad788774e311d5b2eac758017f5322bca2"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get_lists_on_board_request_Trello",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.trello.com/1/boards/62c82c5559d3e83002e04b99/lists?key=6cb6394a4ff5cfd41127b068894717cd&token=80608570f4aa2dfdf192fcde293fc0ad782374e311d5b2eac758017f5322bca2",
+					"protocol": "https",
+					"host": [
+						"api",
+						"trello",
+						"com"
+					],
+					"path": [
+						"1",
+						"boards",
+						"62c82c5559d3e83002e04b99",
+						"lists"
+					],
+					"query": [
+						{
+							"key": "key",
+							"value": "6cb6394a4ff5cfd41127b068894717cd"
+						},
+						{
+							"key": "token",
+							"value": "80608570f4aa2dfdf192fcde293fc0ad782374e311d5b2eac758017f5322bca2"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get_a_card_on_board_Trello",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.trello.com/1/cards/62c82c7dfc20fb811e0ee851?key=6cb6394a4ff5cfd41127b068894777cd&token=80608570f4aa2dfdf192fcde293fc0ad782374e311d5b2eac758017f5322bca2",
+					"protocol": "https",
+					"host": [
+						"api",
+						"trello",
+						"com"
+					],
+					"path": [
+						"1",
+						"cards",
+						"62c82c7dfc20fb811e0ee851"
+					],
+					"query": [
+						{
+							"key": "key",
+							"value": "6cb6394a4ff5cfd41127b068894717cd"
+						},
+						{
+							"key": "token",
+							"value": "80608570f4aa2dfdf192fcde293fc0ad782374e311d5b2eac758017f5322bca2"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
